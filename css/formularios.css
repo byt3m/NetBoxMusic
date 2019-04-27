@@ -1,0 +1,81 @@
+/********************************************************************************************
+Nombre del fichero: formularios.css
+Descripción: fichero de estilos CSS correspondiente a los formularios de la página de inicio
+********************************************************************************************/
+
+/*CSS del formulario de login*/
+#login {
+	font-size: 15px;
+	display: inline-block;
+    margin: 2%;
+	padding: 2%;
+	padding-left: 4%;
+    width: 90%;
+	height: 70%;
+}
+#login div {
+    margin: 2%;
+    overflow: hidden;
+}
+#login div label {
+    line-height: 25px;
+}
+#login div input[type="text"], form.login div input[type="password"] {
+    border: 1px solid #DCDCDC;
+    padding: 4px;
+}
+#login div input[type="submit"] {
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;	
+    font-weight: bold;
+    padding: 4px 20px;
+	margin: 5px;
+}
+
+/*CSS del boton que intercambio el formulario de login
+por el de registro y viceversa.*/
+#cuentanueva {
+	text-decoration: none;
+	color: black;
+	border: 1px solid #C6C6C6;
+	background: none repeat scroll 0 0 #DEDEDE;
+	display: inline-block;
+	font-size: 12px;
+	padding: 4px 20px;
+	margin: 5px;
+}
+
+/*CSS del formulario de registro*/
+#registro {
+	font-size: 15px;
+	display: inline-block;
+    margin: 5px;
+	padding: 5px;
+	padding-left: 5px;
+    width: 90%;
+	height: 70%;
+}
+#registro div {
+    margin: 5px;
+    overflow: hidden;
+}
+#registro div label {
+    line-height: 25px;
+}
+#registro div input[type="text"], form.registro div input[type="password"] {
+    border: 1px solid #DCDCDC;
+    padding: 4px;
+}
+#registro div input[type="submit"] {
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;	
+    font-weight: bold;
+    padding: 4px 20px;
+	margin: 5px;
+}
+#registro div input[type="reset"] {
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;	
+    padding: 4px 20px;
+	margin: 5px;
+}

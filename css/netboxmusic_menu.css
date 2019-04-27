@@ -1,0 +1,106 @@
+/**************************************************************************
+Nombre del fichero: netboxmusic_menu.css
+Descripción: fichero de estilos CSS usado en el menú principal.
+**************************************************************************/
+
+#menuprincipal {padding: 0; margin: 0; border: 0; position: fixed; z-index: 1000000; top: 0; width: 100%;}
+#menuprincipal ul, #menuprincipal li {list-style: none; margin: 0; padding: 0;}
+#menuprincipal ul {position: relative; z-index: 597; }
+#menuprincipal ul li { float: left; min-height: 1px; vertical-align: middle;}
+#menuprincipal ul li.hover,
+#menuprincipal ul li:hover {position: relative; z-index: 599; cursor: default;}
+#menuprincipal ul ul {visibility: hidden; position: absolute; top: 100%; left: 0; z-index: 598; width: 100%;}
+#menuprincipal ul ul li {float: none;}
+#menuprincipal ul ul ul {top: 0; left: auto; right: -99.5%; }
+#menuprincipal ul li:hover > ul { visibility: visible;}
+#menuprincipal ul ul {bottom: 0; left: 0;}
+#menuprincipal ul ul {margin-top: 0; }
+#menuprincipal ul ul li {font-weight: normal;}
+#menuprincipal a { display: block; line-height: 1em; text-decoration: none; }
+
+#menuprincipal {
+  background: #333;
+  border-bottom: 4px solid #1b9bff;
+}
+
+#menuprincipal > ul { *display: inline-block; }
+
+#menuprincipal:after, #menuprincipal ul:after {
+   content: '';
+   display: block;
+   clear: both;
+}
+
+
+#menuprincipal a {
+    background: #333;
+    color: #CBCBCB;
+    padding: 0 20px;
+}
+
+#menuprincipal ul { text-transform: uppercase; }
+
+#menuprincipal ul ul {
+    border-top: 4px solid #1b9bff;
+    text-transform: none;
+    min-width: 190px;
+}
+
+#menuprincipal ul ul a {
+    background: #1b9bff;
+    color: #FFF;
+    border: 1px solid #0082e7;
+    border-top: 0 none;
+    line-height: 150%;
+    padding: 16px 20px;
+}
+      
+#menuprincipal ul ul ul { border-top: 0 none; }
+
+#menuprincipal ul ul li { position: relative }
+	  
+#menuprincipal > ul > li > a { line-height: 48px;  }
+
+#menuprincipal ul ul li:first-child > a { border-top: 1px solid #0082e7; }
+        
+#menuprincipal ul ul li:hover > a { background: #35a6ff; }
+
+#menuprincipal ul ul li:last-child > a {
+    border-radius: 0 0 3px 3px;
+    box-shadow: 0 1px 0 #1b9bff;
+}
+        
+#menuprincipal ul ul li:last-child:hover > a { border-radius: 0 0 0 3px; }
+
+#menuprincipal ul ul li.submenu > a:after {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -8px;
+}
+
+#menuprincipal ul li:hover > a, #menuprincipal ul li.activo > a {
+    background: #1b9bff;
+    color: #FFF;
+}
+
+#menuprincipal ul li.submenu > a:after {
+    margin-left: 5px;
+}
+    
+#menuprincipal ul li.last ul {
+    left: auto;
+    right: 0;
+}
+
+#menuprincipal ul li.last ul ul {
+    left: auto;
+    right: 99.5%;
+}
+
+
+#menuprincipal ul li span {
+	color: #CBCBCB;
+	line-height: 48px;
+	padding: 10px;
+}

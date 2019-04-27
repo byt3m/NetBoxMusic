@@ -1,0 +1,177 @@
+/************************************************************************************************
+Nombre del fichero: adm_formularios.css
+Descripción: fichero de estilos CSS relativo al estilo de los formularios.
+************************************************************************************************/
+
+/*Estilo del formulario de Modificar Usuario.*/
+#modusu {
+	font-size: 15px;
+	display: inline-block;
+	margin-top: 25px;
+}
+#modusu td {
+    margin: 10px;
+    overflow: hidden;
+}
+#modusu td input[type="text"]{
+    border: 1px solid #DCDCDC;
+    padding: 4px;
+}
+#modusu td input[type="submit"] {
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;	
+    font-weight: bold;
+    padding: 4px 20px;
+	margin: 5px;
+}
+/*Estilo del formulario de Crear Usuario.*/
+#crearusu {
+	font-size: 15px;
+	display: inline-block;
+    margin: 10px;
+	padding: 10px;
+	padding-left: 15px;
+    width: 90%;
+	height: 70%;
+}
+#crearusu div {
+    margin: 10px;
+    overflow: hidden;
+}
+#crearusu div label {
+    line-height: 25px;
+}
+#crearusu div input[type="text"], form.crearusu div input[type="password"], #crearusu div select {
+    border: 1px solid #DCDCDC;
+    padding: 4px;
+}
+#crearusu div input[type="submit"] {
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;	
+    font-weight: bold;
+    padding: 4px 20px;
+	margin: 5px;
+}
+
+/*Estilo del buscador.*/
+#buscador{
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+}
+#buscador label {
+    line-height: 25px;
+}
+#buscador input[type="text"], select{
+    border: 1px solid #DCDCDC;
+    padding: 4px;
+}
+#buscador button{
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;	
+    font-weight: bold;
+    padding: 4px 20px;
+	margin: 5px;
+}
+
+/*Estilo del formulario de Crear Artista.*/
+#crearartista {
+	font-size: 15px;
+	display: inline-block;
+    margin: 10px;
+	padding: 10px;
+	padding-left: 15px;
+    width: 90%;
+	height: 70%;
+}
+#crearartista div {
+    margin: 10px;
+    overflow: hidden;
+}
+#crearartista div label {
+    line-height: 25px;
+}
+#crearartista div input[type="text"], #crearartista div select {
+    border: 1px solid #DCDCDC;
+    padding: 4px;
+}
+#crearartista div input[type="submit"] {
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;	
+    font-weight: bold;
+    padding: 4px 20px;
+	margin: 5px;
+}
+
+/*Estilo del formulario de Crear Género.*/
+#creargenero {
+	font-size: 15px;
+	display: inline-block;
+    margin: 10px;
+	padding: 10px;
+	padding-left: 15px;
+    width: 90%;
+	height: 70%;
+}
+#creargenero div {
+    margin: 10px;
+    overflow: hidden;
+}
+#creargenero div label {
+    line-height: 25px;
+}
+#creargenero div input[type="text"]{
+    border: 1px solid #DCDCDC;
+    padding: 4px;
+}
+#creargenero div input[type="submit"] {
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;	
+    font-weight: bold;
+    padding: 4px 20px;
+	margin: 5px;
+}
+
+/*Estilo del formulario de Crear Canción.*/
+#crearcancion {
+	font-size: 15px;
+	display: inline-block;
+    margin: 10px;
+	padding: 10px;
+	padding-left: 15px;
+    width: 90%;
+	height: 70%;
+}
+#crearcancion {
+    margin: 10px;
+    overflow: hidden;
+}
+#crearcancion label {
+    line-height: 25px;
+}
+#crearcancion input[type="text"], #crearartista select {
+    border: 1px solid #DCDCDC;
+    padding: 4px;
+}
+#crearcancion input[type="submit"] {
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;	
+    font-weight: bold;
+    padding: 4px 20px;
+	margin: 5px;
+}
+#crearcancion button {
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;	
+    padding: 4px 20px;
+	margin: 5px;
+}
+
+/*Estilo aplicado a un determinado elemento que aplica una forma de botón.*/
+.boton {
+	background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;	
+    font-weight: bold;
+    padding: 4px 20px;
+	margin: 5px;
+}

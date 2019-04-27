@@ -1,0 +1,92 @@
+/************************************************************************************************
+Nombre del fichero: netboxmusic_formularios.css
+Descripción: fichero de estilos CSS relativo al estilo de los formularios de la parte de cliente.
+************************************************************************************************/
+
+/* CSS del formulario de Cambiar Contraseña */
+#cambiarpass {
+	font-size: 15px;
+	display: inline-block;
+    margin: 5px;
+	padding: 5px;
+	padding-left: 5px;
+}
+#cambiarpass div {
+    margin: 5px;
+    overflow: hidden;
+}
+#cambiarpass div label {
+    line-height: 25px;
+}
+#cambiarpass div input[type="text"], form.cambiarpass div input[type="password"] {
+    border: 1px solid #DCDCDC;
+    padding: 4px;
+}
+#cambiarpass div input[type="submit"] {
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;	
+    font-weight: bold;
+    padding: 4px 20px;
+	margin: 5px;
+}
+#cambiarpass div input[type="reset"] {
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;	
+    padding: 4px 20px;
+	margin: 5px;
+}
+
+/* CSS del formulario de Soporte */
+#soporte {
+	font-size: 15px;
+	display: inline-block;
+	margin-bottom: 50px;
+	padding: 5px;
+	padding-left: 5px;
+}
+#soporte div {
+    margin: 5px;
+    overflow: hidden;
+}
+#soporte div label {
+    line-height: 25px;
+}
+#soporte div input[type="text"], textarea {
+    border: 1px solid #DCDCDC;
+    padding: 4px;
+}
+#soporte div input[type="submit"] {
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;	
+    font-weight: bold;
+    padding: 4px 20px;
+	margin: 5px;
+}
+#soporte div input[type="reset"] {
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;	
+    padding: 4px 20px;
+	margin: 5px;
+}
+
+/* CSS del Buscador */
+#buscador{
+	display: inline-block;
+	margin: 5px;
+	padding: 5px;
+}
+#buscador label {
+    line-height: 25px;
+}
+#buscador input[type="text"], select{
+    border: 1px solid #DCDCDC;
+    padding: 4px;
+}
+#buscador button{
+    background: none repeat scroll 0 0 #DEDEDE;
+    border: 1px solid #C6C6C6;	
+    font-weight: bold;
+    padding: 4px 20px;
+	margin: 5px;
+}
+
