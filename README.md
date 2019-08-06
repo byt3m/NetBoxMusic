@@ -1,6 +1,6 @@
 # NetBoxMusic
 
-Music playing Spotify-Type Webpage.
+Spotify-like Webpage.
 
 Uses PHP, MySQL and PHPMailer.
 
